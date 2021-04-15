@@ -1,0 +1,66 @@
+body {
+  background-color: #000000;
+  color: #999999;
+  font-family: sans-serif;
+}
+
+b {
+  color: #BBBBFF;
+}
+
+a {
+  text-decoration: none;
+  color: #7777CC;
+}
+
+a img {
+  border: none;
+}
+
+a:hover {
+  color: #EEEEEE;
+}
+
+div {
+  overflow: auto;
+}
+
+.main {
+  width: 100%;
+}
+
+.global_nav {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  overflow: visible;
+}
+
+
+.title {
+  margin-top: 20px;
+  background-color: #001133;
+  text-align: center;
+}
+
+.info {
+  border: 1px solid #555555;
+}
+
+.thumb {
+  float: left;
+  padding: 5px;
+  width: 210px;
+}
+
+.screenshot {
+  float: right;
+  padding: 10px;
+}
+
+.desc {
+  vertical-align: top;
+  padding: 10px;
+}
+
