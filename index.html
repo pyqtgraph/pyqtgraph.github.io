@@ -50,12 +50,12 @@
                 python setup.py install
                 </pre>
                 
-                <a href="https://github.com/pyqtgraph/pyqtgraph/blob/develop/CHANGELOG">recent changes</a>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="downloads/">older releases</a>
+                <a href="https://github.com/pyqtgraph/pyqtgraph/blob/develop/CHANGELOG">recent changes</a>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="https://github.com/pyqtgraph/pyqtgraph/releases">older releases</a>
             </div><br>
         </div>
         
-        <b>PyQtGraph</b> is a pure-python graphics and GUI library built on <a href="http://www.riverbankcomputing.co.uk/software/pyqt/intro">PyQt4</a> / <a href="http://www.pyside.org/">PySide</a> and <a href="http://www.numpy.org/">numpy</a>. It is intended for use in mathematics / scientific / engineering applications. 
-        Despite being written entirely in python, the library is very fast due to its heavy leverage of numpy for number crunching and <a href="http://doc-snapshot.qt-project.org/4.8/graphicsview.html">Qt's GraphicsView framework</a> for fast display. 
+        <b>PyQtGraph</b> is a pure-python graphics and GUI library built on <a href="http://www.riverbankcomputing.co.uk/software/pyqt/intro">PyQt</a> / <a href="http://www.pyside.org/">PySide</a> and <a href="http://www.numpy.org/">numpy</a>. It is intended for use in mathematics / scientific / engineering applications. 
+        Despite being written entirely in python, the library is very fast due to its heavy leverage of numpy for number crunching and <a href="https://doc.qt.io/qt-5/qgraphicsview.html">Qt's GraphicsView framework</a> for fast display. 
         PyQtGraph is distributed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT open-source license</a>.
    <br>
         
@@ -130,8 +130,8 @@
             PyQtGraph is known to run on Linux, Windows, and OSX.<br>
             It should, however, run on any platform which supports the following packages:
             <ul>
-                <li><b>Python 2.7 and 3+</b>
-                <li><b>PyQt 4.8+</b> or <b>PySide</b>
+                <li><b>Python 3+</b>
+                <li><b>PyQt 5+</b> or <b>PySide</b>
                 <li><b>NumPy</b>
                 <li><b>python-opengl</b> bindings are required for 3D graphics
             </ul>
@@ -149,9 +149,11 @@
         <p><b>Packaging for Distribution:</b><br>
         <div style="margin-left: 20px">
             Applications written with pyqtgraph may be packaged as Windows exe files using py2exe or OSX dmg files
-            using py2app. For pyqtgraph 0.9.8 and earlier, read this excellent and thorough 
-            <a href="Bundling applications with PyQtGraph_R16.pdf">document describing the process.</a> by Christian Gavin<br>
-            For versions past 0.9.8, using py2exe is much simpler; see examples/py2exe. 
+            using py2app. 
+            
+            <!-- For pyqtgraph 0.9.8 and earlier, read this excellent and thorough -->
+            <!-- <a href="Bundling applications with PyQtGraph_R16.pdf">document describing the process.</a> by Christian Gavin<br> -->
+            <!-- For versions past 0.9.8, using py2exe is much simpler; see examples/py2exe. -->
         </div>
 
 
