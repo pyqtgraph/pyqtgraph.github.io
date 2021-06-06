@@ -34,23 +34,22 @@
         </div>
         <div style="text-align: center">
             <a href="https://pyqtgraph.readthedocs.io/en/latest/">Documentation and API Reference</a>&nbsp;&nbsp; - &nbsp;&nbsp;
-            <a href="http://github.com/pyqtgraph/pyqtgraph">Github Repository</a>&nbsp;&nbsp; - &nbsp;&nbsp;
+            <a href="http://github.com/pyqtgraph/pyqtgraph">GitHub Repository</a>&nbsp;&nbsp; - &nbsp;&nbsp;
             <a href="https://groups.google.com/forum/#!forum/pyqtgraph">Support mailing list</a>
         </div>
         <br>
         <div>
             <div style="padding: 5px; margin-bottom: 10px; border: 1px solid #446; text-align: left; width: 500px; margin-left: auto; margin-right: auto;">
-                <b>install from pypi:</b><br>
+                <b>Install from PyPI:</b><br>
                 <pre>                pip install pyqtgraph</pre>
                 <b>or via conda:</b><br>
                 <pre>                conda install -c conda-forge pyqtgraph</pre>
-                <b>or from the <a href="https://github.com/pyqtgraph/pyqtgraph">source on github</a>:</b><br>
+                <b>or from <a href="https://github.com/pyqtgraph/pyqtgraph">source on GitHub</a>:</b><br>
                 <pre>                git clone https://github.com/pyqtgraph/pyqtgraph
                 cd pyqtgraph
-                python setup.py install
+                pip install .
                 </pre>
-                
-                <a href="https://github.com/pyqtgraph/pyqtgraph/blob/develop/CHANGELOG">recent changes</a>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="https://github.com/pyqtgraph/pyqtgraph/releases">older releases</a>
+                <a href="https://github.com/pyqtgraph/pyqtgraph/blob/master/CHANGELOG">recent changes</a>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="https://github.com/pyqtgraph/pyqtgraph/releases">older releases</a>
             </div><br>
         </div>
         
@@ -106,33 +105,15 @@
             </ul>
         </ul>
 
-        <p><b>Installation:</b>
-        <div style="margin-left: 20px">
-            PyQtGraph does not really require any installation scripts. 
-            All that is needed is for the pyqtgraph folder to be placed someplace importable. 
-            Most people will prefer to simply place this folder within a larger project folder.
-            If you want to make pyqtgraph available system-wide, use one of the methods listed below:<br><br>
-            
-            <ul>
-                <li> <b>Debian, Ubuntu, and similar Linux:</b><br> Download the .deb file linked at the top of the page.
-                <li> <b>Other Linux:</b><br> Many people have generated packages for non-debian Linux distributions, including Arch, Suse, and Gentoo. Check 
-                your distribution repository for pyqtgraph packages.
-                <li> <b>Windows:</b><br> Download and run the .exe installer file linked at the top of the page.
-                <li> <b>Everybody (including OSX):</b><br> Download the .tar.gz source package linked at the top of the page,
-                extract its contents, and run "python setup.py install" from within the extracted directory (pyqtgraph is a pure-python
-                library, so no compiling occurs during this installation). 
-                Or, install from pypi using "pip install pyqtgraph".
-            </ul>
-        </div>
-
         <p><b>Requirements:</b>
         <div style="margin-left: 20px">
             PyQtGraph is known to run on Linux, Windows, and OSX.<br>
             It should, however, run on any platform which supports the following packages:
             <ul>
                 <li><b>Python 3+</b>
-                <li><b>PyQt 5+</b> or <b>PySide</b>
+                <li><b>PyQt 5</b>, <b>PyQt6</b>, <b>PySide2</b>, or <b>PySide6</b>
                 <li><b>NumPy</b>
+                <li><b>SciPy</b> is optional for some numerical procedures
                 <li><b>python-opengl</b> bindings are required for 3D graphics
             </ul>
         </div>
@@ -159,9 +140,13 @@
 
         <p><b>Questions, feedback, and bug reports:</b> 
         <ul>
-            <li>Post questions, feedback, and bug reports to the <a href="https://groups.google.com/forum/?fromgroups#!forum/pyqtgraph">pyqtgraph forum</a>.
-            <li>Or: post questions to <a href='http://www.stackoverflow.com'>Stack Overflow</a> with the tag 'pyqtgraph'
-            (if it's not tagged correctly, I'll probably never see it).
+            <li>Post bug reports and feature requests to the <a href="https://github.com/pyqtgraph/pyqtgraph/issues">GitHub issue tracker</a>.
+            <li>For questions, there are several options:
+                <ul>
+                    <li><a href="https://groups.google.com/forum/?fromgroups#!forum/pyqtgraph">The PyQtGraph forum (Google Group)</a>
+                    <li><a href="https://github.com/pyqtgraph/pyqtgraph/discussions">GitHub Discussions</a>
+                    <li><a href="https://stackoverflow.com/questions/tagged/pyqtgraph">Stack Overflow with the 'pyqtgraph' tag</a>
+                </ul>
         </ul>
 
         <p><b>Comparison to other python graphics packages:</b>
