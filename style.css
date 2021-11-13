@@ -62,13 +62,11 @@ div {
 .subsection {
 }
 
-
 .subsection-heading {
   font-weight: bold;
   color: #bbbbff;
   font-size: 20px;
 }
-
 
 .subsection-box {
   background-color: #222233;
@@ -78,7 +76,6 @@ div {
   padding-bottom: 12px;
   margin-top: 40px;
 }
-
 
 .footer {
   padding-top: 40px;
@@ -95,7 +92,7 @@ div {
   text-align: center;
 }
 
-.gallery-item{
-  padding-bottom: 16px;
-  padding-top: 16px;
+.gallery-item {
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
