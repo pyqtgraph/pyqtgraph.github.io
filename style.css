@@ -1,6 +1,6 @@
 body {
   background-color: #000000;
-  color: #aaaaaa;
+  color: #bbbbbb;
   font-family: sans-serif;
 }
 
@@ -57,4 +57,31 @@ div {
 .desc {
   vertical-align: top;
   padding: 10px;
+}
+
+.subsection {
+}
+
+
+.subsection-heading {
+  font-weight: bold;
+  color: #bbbbff;
+  font-size: 20px;
+}
+
+
+.subsection-box {
+  background-color: #222233;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 40px;
+}
+
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 12;
 }
