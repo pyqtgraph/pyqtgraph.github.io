@@ -1,16 +1,16 @@
 body {
   background-color: #000000;
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-family: sans-serif;
 }
 
 b {
-  color: #BBBBFF;
+  color: #bbbbff;
 }
 
 a {
   text-decoration: none;
-  color: #7777CC;
+  color: #7777cc;
 }
 
 a img {
@@ -18,7 +18,7 @@ a img {
 }
 
 a:hover {
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 
 div {
@@ -32,7 +32,6 @@ div {
   z-index: 1;
   overflow: visible;
 }
-
 
 .title {
   margin-top: 20px;
@@ -59,4 +58,3 @@ div {
   vertical-align: top;
   padding: 10px;
 }
-
