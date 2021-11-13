@@ -1,6 +1,6 @@
 body {
   background-color: #000000;
-  color: #bbbbbb;
+  color: #cccccc;
   font-family: sans-serif;
 }
 
@@ -84,4 +84,18 @@ div {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 12;
+}
+
+.gallery {
+  float: right;
+  padding: 5px;
+  margin-left: 20px;
+  width: 420px;
+  border: 1px solid #446;
+  text-align: center;
+}
+
+.gallery-item{
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
