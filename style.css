@@ -1,16 +1,16 @@
 body {
   background-color: #000000;
-  color: #999999;
+  color: #cccccc;
   font-family: sans-serif;
 }
 
 b {
-  color: #BBBBFF;
+  color: #bbbbff;
 }
 
 a {
   text-decoration: none;
-  color: #7777CC;
+  color: #7777cc;
 }
 
 a img {
@@ -18,15 +18,11 @@ a img {
 }
 
 a:hover {
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 
 div {
   overflow: auto;
-}
-
-.main {
-  width: 100%;
 }
 
 .global_nav {
@@ -36,7 +32,6 @@ div {
   z-index: 1;
   overflow: visible;
 }
-
 
 .title {
   margin-top: 20px;
@@ -64,3 +59,40 @@ div {
   padding: 10px;
 }
 
+.subsection {
+}
+
+.subsection-heading {
+  font-weight: bold;
+  color: #bbbbff;
+  font-size: 20px;
+}
+
+.subsection-box {
+  background-color: #222233;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 40px;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 12;
+}
+
+.gallery {
+  float: right;
+  padding: 5px;
+  margin-left: 20px;
+  width: 420px;
+  border: 1px solid #446;
+  text-align: center;
+}
+
+.gallery-item {
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
